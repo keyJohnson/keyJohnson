@@ -59,24 +59,66 @@ td,th{
 table{
     border-collapse:collapse;
 }
-.tr{
-    overflow:hidden;
-    border-radius:25px;
-    width:200px;
-    height:200px;
-    background-color:red;
-    -webkit-transition: 3s width 2s, background-color 5s;
-    -moz-transition: 3s width 2s, background-color 5s;
-    -o-transition: 3s width 2s, background-color 5s;
-    transition: 3s width 2s, background-color 5s;
+.tr1{
+   box-shadow: 10px 10px 10px black;
+   margin: 30px 100px;
+   overflow:hidden;
+   border-radius:25px;
+   width:200px;
+   height:200px;
+   background-color:green;
+   -webkit-transition: 3s width 2s, background-color 5s;
+   -moz-transition: 3s width 2s, background-color 5s;
+   -o-transition: 3s width 2s, background-color 5s;
+   transition: 3s width 2s, background-color 5s;
 }
-.tr:hover{
-    width:500px;
-    background-color: green;
-    background:linear-gradient( -10deg,green,yellow,red,darkblue ,purple,orange,blue);
+
+.tr2{
+   box-shadow: 10px 10px 10px black;
+   margin: 30px 100px;
+   overflow:hidden;
+   border-radius:25px;
+   width:200px;
+   height:200px;
+   background-color:yellow;
+   -webkit-transition: 3s width 2s, background-color 5s;
+   -moz-transition: 3s width 2s, background-color 5s;
+   -o-transition: 3s width 2s, background-color 5s;
+   transition: 3s width 2s, background-color 5s;
+}
+
+.tr3{
+   box-shadow: 10px 10px 10px black;
+   margin: 30px 100px;
+   overflow:hidden;
+   border-radius:25px;
+   width:200px;
+   height:200px;
+   background-color:red;
+   -webkit-transition: 3s width 2s, background-color 5s;
+   -moz-transition: 3s width 2s, background-color 5s;
+   -o-transition: 3s width 2s, background-color 5s;
+   transition: 3s width 2s, background-color 5s;
+}
+.tr1:hover{
+    width:600px;
+    
+    background:linear-gradient( -10deg,green,yellow,red,blue ,purple,orange,teal,aqua,lime,#ff00ff);
+}
+
+.tr2:hover{
+    width:600px;
+    
+    background:linear-gradient( -10deg,green,yellow,red,blue ,purple,orange,teal,aqua,lime,#ff00ff);
+}
+
+.tr3:hover{
+    width:600px;
+    
+    background:linear-gradient( -10deg,green,yellow,red,blue ,purple,orange,teal,aqua,lime,#ff00ff);
 }
 .divi{
-    background:linear-gradient( -10deg,green,yellow,red,darkblue ,purple,orange,blue);
+    background:linear-gradient( -10deg,green,yellow,red,blue ,aqua,orange,teal,aqua,lime,#ff00ff);
     font-size:25px;
     display:inline-block;
     float:right;
@@ -91,9 +133,7 @@ table{
    display: inline-block;
 }
 
-#divi1{
-   background-color: green;
-}
+
 
 #divi2{
    background-color: yellow;
@@ -124,13 +164,9 @@ table{
    background-color: navy;
 }
 
-#divi9{
-   background-color: gray;
-}
 
-#divi10{
-   background-color: teal;
-}
+
+
 
 #divi11{
    background-color: purple;
@@ -141,5 +177,10 @@ section{
 }
 
 #center{
+   text-align: center;
+}
+
+#contenaire{
+   display: flex;
    text-align: center;
 }
